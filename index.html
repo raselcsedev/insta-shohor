@@ -79,15 +79,24 @@
         </main>
         <section>
             <div class="container">
-                <h1>Q1. How does JS work?</h1>
+                <h3>Q1. How does JS work?</h3>
                 <p> <span class="fw-bold">Answer: </span>
                     It depends on users how use JavaScript because this is client-side and most efficient scripting language. Nowadays every web browsers use their own JavaScript engine that converts JS code in line by line. JS executes a script from the top of the file and works its way down. However, it currently runs on any operating system other than the brwsers. An execution context is created when JS program is execute. It has synchronous model of execution.
                 </p>
             </div>
             <div class="container">
-                <h1>Q1. How does JS event loop do?</h1>
+                <h3>Q2. How does JS event loop do?</h3>
                 <p> <span class="fw-bold">Answer: </span>
-                    JS event loop is something that runs in one at a time because JS is a synchronous and single-threaded language. There is no posibility to run multiples code at a time. Somethimes JS being multithreaded becaise of event loop even though it's single threaded. Such as, setTimeOut()
+                    JS event loop is something that runs in one at a time because JS is a synchronous and single-threaded language. There is no posibility to run multiples code at a time. JS being called with two arguments add to Queue because of event loop even though it's single threaded. Such as, setTimeOut(). It depends on the number of tasks in queue. When all tasks wiil be executed then JS event loop is processed to exwcute after the delay. 
+                </p>
+            </div>
+            <div class="container">
+                <h3>Q3. Difference between Local storage and Session Storage.</h3>
+                <p> <span class="fw-bold">Answer: </span> <br>
+                    01. Local storage data doesn't destroy when the page session ends but Session storage data destroys when the page session ends. <br>
+                    02. Local Storage writes data to disk but Session storage writes data to only memory. <br>
+                    03.Limitaion of data inside of Local storage is about 5mb and limitation of data inside of Session storage is about 5-10mb. <br>
+                    04. Local storage is accessible from any window and Session storage is accessible from same tab.
                 </p>
             </div>
         </section>
